@@ -9,6 +9,10 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
+  <remote  name="lluvia"
+           fetch="https://github.com/LLuviaOS"
+           revision="refs/heads/8.1" />
+
   <default revision="refs/tags/android-8.1.0_r11"
            remote="aosp"
            sync-j="4"
