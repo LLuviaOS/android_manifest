@@ -136,7 +136,7 @@
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="llos" />
 
     <!-- vendor -->
-    <project path="vendor/elixir" name="android_vendor_elixir" remote="llos" />
+    <project path="vendor/lluvia" name="android_vendor_lluvia" remote="llos" />
     <project path="vendor/qcom/opensource/dataservices" name="LLuviaOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="8.1" />
     <project path="vendor/qcom/opensource/interfaces" name="LLuviaOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="8.1" />
     <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="llos" />
@@ -146,6 +146,6 @@
 
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="llos" />
-    <project path="device/elixir/sepolicy" name="android_device_elixir_sepolicy" remote="llos" />
+    <project path="device/lluvia/sepolicy" name="android_device_elixir_sepolicy" remote="llos" />
 </manifest>
 
