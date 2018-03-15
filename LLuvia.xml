@@ -44,10 +44,10 @@
     <project path="external/json-c" name="external_json-c" remote="llos" />
     <project path="external/libncurses" name="external_libncurses" remote="llos" />
     <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="llos" />
-    <project path="external/libtextclassifier" name="external_libtextclassifier" remote="llos" />
-    <project path="external/mksh" name="external_mksh" remote="llos" />
+    <project path="external/libtextclassifier" name="external_libtextclassifier" groups="pdk" remote="llos" />
+    <project path="external/mksh" name="external_mksh" groups="pdk" remote="llos" />
     <project path="external/nano" name="external_nano" remote="llos" />
-    <project path="external/skia" name="external_skia" remote="llos" />
+    <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="llos" />
     <project path="external/toybox" name="external_toybox" remote="llos" />
     <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="llos" />
     <project path="external/ant-wireless/antradio-library" name="LLuviaOS/external_ant-wireless_antradio-library" remote="github" revision="8.1" />
