@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-
-  <remote  name="github"
-           fetch="https://github.com/" />
-
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-
-  <remote  name="lluvia"
-           fetch="https://github.com/LLuviaOS"
-           revision="refs/heads/8.1" />
-
-  <default revision="refs/tags/android-8.1.0_r11"
+  <default revision="refs/tags/android-8.1.0_r18"
            remote="aosp"
-           sync-j="4"
-           sync-c="true"/>
-
-  <!-- AOSP Projects -->
-
+           sync-c="true"
+           sync-f="true"
+           sync-j="8" />
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -482,6 +470,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="platform/packages/apps/StorageManager" groups="pdk-fs" />
@@ -630,13 +619,11 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
-
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Remove unused AOSP repos -->
+  <include name="remove.xml" />
 
-  <!-- LLUVIA repos -->
-  <include name="snippets/lluvia.xml" />
-  <include name="snippets/remove.xml" />
-
-
+  <!-- LLuvia repos -->
+  <include name="LLuvia.xml" />
 </manifest>
