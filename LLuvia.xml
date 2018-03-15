@@ -7,7 +7,7 @@
 
     <remote name="llos"
         fetch="https://github.com/LLuviaOS"
-        revision="test-o" />
+        revision="8.1" />
 
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="llos" />
