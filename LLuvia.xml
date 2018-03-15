@@ -38,9 +38,9 @@
     <project path="external/fuse" name="LLuviaOS/android_external_fuse" remote="github" revision="8.1" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="llos" />
     <project path="external/exfat" name="LLuviaOS/android_external_exfat" remote="github" revision="8.1" />
-    <project path="external/ant-wireless/antradio-library" name="LLuviaOS/android_external_ant-wireless_antradio-library" remote="github" revision="8.1" />
-    <project path="external/ant-wireless/ant_native" name="LLuviaOS/android_external_ant-wireless_ant_native" remote="github" revision="8.1" />
-    <project path="external/ant-wireless/ant_service" name="LLuviaOS/android_external_ant-wireless_ant_service" remote="github" revision="8.1" />
+    <project path="external/ant-wireless/antradio-library" name="LLuviaOS/external_ant-wireless_antradio-library" remote="github" revision="8.1" />
+    <project path="external/ant-wireless/ant_native" name="LLuviaOS/external_ant-wireless_ant_native" remote="github" revision="8.1" />
+    <project path="external/ant-wireless/ant_service" name="LLuviaOS/external_ant-wireless_ant_service" remote="github" revision="8.1" />
 
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="llos"  />
