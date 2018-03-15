@@ -38,6 +38,18 @@
     <project path="external/fuse" name="LLuviaOS/android_external_fuse" remote="github" revision="8.1" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="llos" />
     <project path="external/exfat" name="LLuviaOS/android_external_exfat" remote="github" revision="8.1" />
+    <project path="external/connectivity" name="external_connectivity" remote="gzosp" />
+    <project path="external/ebtables" name="external_ebtables" remote="gzosp" />
+    <project path="external/htop" name="external_htop" remote="gzosp" />
+    <project path="external/json-c" name="external_json-c" remote="gzosp" />
+    <project path="external/libncurses" name="external_libncurses" remote="gzosp" />
+    <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
+    <project path="external/libtextclassifier" name="external_libtextclassifier" remote="gzosp" />
+    <project path="external/mksh" name="external_mksh" remote="gzosp" />
+    <project path="external/nano" name="external_nano" remote="gzosp" />
+    <project path="external/skia" name="external_skia" remote="gzosp" />
+    <project path="external/toybox" name="external_toybox" remote="gzosp" />
+    <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="gzosp" />
     <project path="external/ant-wireless/antradio-library" name="LLuviaOS/external_ant-wireless_antradio-library" remote="github" revision="8.1" />
     <project path="external/ant-wireless/ant_native" name="LLuviaOS/external_ant-wireless_ant_native" remote="github" revision="8.1" />
     <project path="external/ant-wireless/ant_service" name="LLuviaOS/external_ant-wireless_ant_service" remote="github" revision="8.1" />
@@ -50,7 +62,7 @@
     <project path="system/media" name="android_system_media" remote="llos"  />
     <project path="system/nfc" name="android_system_nfc" remote="llos"  />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="llos"  />
-    <project path="system/qcom" name="LLuviaOS/android_system_qcom" remote="github" revision="android-8.1" />
+    <project path="system/qcom" name="LLuviaOS/android_system_qcom" remote="github" revision="8.1" />
     <project path="system/vold" name="android_system_vold" remote="llos"  />
     <project path="system/libhidl" name="android_system_libhidl" remote="llos"  />
 
