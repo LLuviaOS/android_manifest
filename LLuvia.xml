@@ -138,8 +138,8 @@
     <project path="packages/apps/FMRadio" name="LLuviaOS/android_packages_apps_FMRadio" remote="github" revision="8.1"  />
     <project path="packages_apps_ToRmEnTa" name="android_packages_apps_ToRmEnTa" remote="llos" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="llos" />
-    <project path="packages/apps/LLuviaOTA" name="android_packages_apps_LLuviaOTA" remote="llos" />
-    <project path="packages/overlays/LLuvia" name="android_packages_overlays_LLuvia" remote="llos" />
+    <!--project path="packages/apps/LLuviaOTA" name="android_packages_apps_LLuviaOTA" remote="llos" />
+    <project path="packages/overlays/LLuvia" name="android_packages_overlays_LLuvia" remote="llos" / -->
     <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="llos" />
     <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="llos" />
 
