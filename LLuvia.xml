@@ -12,7 +12,7 @@
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="llos" />
 
-    <project path="build/make" name="android_build_make" remote="llos" >
+    <project path="build/make" name="android_build" remote="llos" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
