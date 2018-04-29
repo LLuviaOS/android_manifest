@@ -59,7 +59,6 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/libtextclassifier" />
-  <remove-project name="external/libnetfilter_conntrack" />
   <remove-project name="external/libnfnetlink" />
   <remove-project name="external/powertop" />
   <remove-project name="platform/external/mksh" />
