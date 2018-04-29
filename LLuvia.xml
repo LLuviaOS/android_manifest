@@ -36,7 +36,7 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="llos" />
     <project path="external/selinux" name="android_external_selinux" remote="llos" />
     <project path="external/fuse" name="android_external_fuse" remote="llos" />
-    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="llos" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="llos" revision="oreo-mr1" />
     <project path="external/exfat" name="android_external_exfat" remote="llos" />
     <project path="external/connectivity" name="external_connectivity" remote="llos" />
     <project path="external/ebtables" name="external_ebtables" remote="llos" />
@@ -145,7 +145,7 @@
 
     <!-- services -->
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="llos" />
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="llos" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="llos" revision="oreo-mr1" />
 
     <!-- vendor -->
     <project path="vendor/lluvia" name="platform_vendor_lluvia" remote="llos" />
