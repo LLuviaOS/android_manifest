@@ -626,4 +626,7 @@
 
   <!-- LLuvia repos -->
   <include name="LLuvia.xml" />
+
+  <!-- GZOSP CAF manifest -->
+  <include name="caf.xml" />
 </manifest>
