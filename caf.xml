@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+   <!-- Github remote -->
+    <remote name="github"
+        fetch="https://github.com/" />
+
+    <remote  name="gzosp"
+           fetch="https://github.com/GZOSP"
+           revision="8.1" />
+
   <!-- HardWare QCOM -->
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.1-caf-8084" />

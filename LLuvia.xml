@@ -9,9 +9,6 @@
         fetch="https://github.com/LLuviaOS"
         revision="8.1" />
 
-    <remote  name="gzosp"
-           fetch="https://github.com/GZOSP" />
-
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="llos" />
 
