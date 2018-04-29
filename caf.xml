@@ -40,11 +40,6 @@
   <!-- camera -->
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="gzosp" />
 
-  <!-- External -->
-  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="gzosp" />
-  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="gzosp" />
-  <project path="external/powertop" name="external_powertop" remote="gzosp" />
-
   <!-- Gps -->
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="gzosp" />
 
