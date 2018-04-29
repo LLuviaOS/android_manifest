@@ -41,6 +41,15 @@
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.1-caf-8998" />
 
+  <!-- harware -->
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="gzosp" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk" remote="gzosp" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="gzosp" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="gzosp" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="gzosp" />
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk" remote="gzosp" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="gzosp" />
+
   <!-- bt -->
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="gzosp" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="gzosp" revision="8.1-caf" />
