@@ -5,14 +5,14 @@
     <remote name="github"
         fetch="https://github.com/" />
 
-    <remote name="llos"
+    <remote name="lluvia"
         fetch="https://github.com/LLuviaOS"
         revision="8.1" />
 
     <!-- general -->
-    <project path="build/kati" name="android_build_kati" remote="llos" />
+    <project path="build/kati" name="android_build_kati" remote="lluvia" />
 
-    <project path="build/make" name="android_build" remote="llos" >
+    <project path="build/make" name="android_build" remote="lluvia" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -22,101 +22,101 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
-    <project path="build/soong" name="android_build_soong" remote="llos" >
+    <project path="build/soong" name="android_build_soong" remote="lluvia" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project path="bionic" name="android_bionic" remote="llos" />
+    <project path="bionic" name="android_bionic" remote="lluvia" />
 
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="llos" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="lluvia" />
 
     <!-- external -->
-    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="llos" revision="oreo-mr1" />
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="llos" />
-    <project path="external/selinux" name="android_external_selinux" remote="llos" />
-    <project path="external/fuse" name="android_external_fuse" remote="llos" />
-    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="llos" revision="oreo-mr1" />
-    <project path="external/exfat" name="android_external_exfat" remote="llos" />
-    <project path="external/connectivity" name="external_connectivity" remote="llos" />
-    <project path="external/ebtables" name="external_ebtables" remote="llos" />
-    <project path="external/htop" name="external_htop" remote="llos" revision="o8x-caf" />
-    <project path="external/json-c" name="external_json-c" remote="llos" />
-    <project path="external/libncurses" name="external_libncurses" remote="llos" />
-    <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="llos" />
-    <project path="external/libtextclassifier" name="external_libtextclassifier" groups="pdk" remote="llos" revision="o-mr1-iot-preview-7" />
-    <project path="external/mksh" name="external_mksh" groups="pdk" remote="llos" />
-    <project path="external/nano" name="external_nano" remote="llos" />
-    <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="llos" />
-    <project path="external/toybox" name="external_toybox" remote="llos" />
-    <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="llos" />
-    <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="llos" />
-    <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="llos" />
-    <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="llos" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lluvia" revision="oreo-mr1" />
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="lluvia" />
+    <project path="external/selinux" name="android_external_selinux" remote="lluvia" />
+    <project path="external/fuse" name="android_external_fuse" remote="lluvia" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lluvia" revision="oreo-mr1" />
+    <project path="external/exfat" name="android_external_exfat" remote="lluvia" />
+    <project path="external/connectivity" name="external_connectivity" remote="lluvia" />
+    <project path="external/ebtables" name="external_ebtables" remote="lluvia" />
+    <project path="external/htop" name="external_htop" remote="lluvia" revision="o8x-caf" />
+    <project path="external/json-c" name="external_json-c" remote="lluvia" />
+    <project path="external/libncurses" name="external_libncurses" remote="lluvia" />
+    <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="lluvia" />
+    <project path="external/libtextclassifier" name="external_libtextclassifier" groups="pdk" remote="lluvia" revision="o-mr1-iot-preview-7" />
+    <project path="external/mksh" name="external_mksh" groups="pdk" remote="lluvia" />
+    <project path="external/nano" name="external_nano" remote="lluvia" />
+    <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="lluvia" />
+    <project path="external/toybox" name="external_toybox" remote="lluvia" />
+    <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="lluvia" />
+    <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="lluvia" />
+    <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="lluvia" />
+    <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="lluvia" />
 
     <!-- system -->
-    <project path="system/bt" name="android_system_bt" remote="llos"  />
-    <project path="system/core" name="android_system_core" remote="llos"  />
-    <project path="system/extras" name="android_system_extras" remote="llos"  />
-    <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="llos"  />
-    <project path="system/media" name="android_system_media" remote="llos"  />
-    <project path="system/nfc" name="android_system_nfc" remote="llos"  />
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="llos"  />
-    <project path="system/qcom" name="android_system_qcom" remote="llos" />
-    <project path="system/vold" name="android_system_vold" remote="llos"  />
-    <project path="system/libhidl" name="android_system_libhidl" remote="llos" />
+    <project path="system/bt" name="android_system_bt" remote="lluvia"  />
+    <project path="system/core" name="android_system_core" remote="lluvia"  />
+    <project path="system/extras" name="android_system_extras" remote="lluvia"  />
+    <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="lluvia"  />
+    <project path="system/media" name="android_system_media" remote="lluvia"  />
+    <project path="system/nfc" name="android_system_nfc" remote="lluvia"  />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia"  />
+    <project path="system/qcom" name="android_system_qcom" remote="lluvia" />
+    <project path="system/vold" name="android_system_vold" remote="lluvia"  />
+    <project path="system/libhidl" name="android_system_libhidl" remote="lluvia" />
 
     <!-- frameworks -->
-    <project path="frameworks/av" name="frameworks_av" remote="llos" />
-    <project path="frameworks/base" name="frameworks_base" remote="llos" />
-    <project path="frameworks/native" name="frameworks_native" remote="llos" />
-    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="llos" />
-    <project path="frameworks/support" name="frameworks_support" remote="llos" revision="8.0" />
-    <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="llos" />
-    <project path="frameworks/hwkeys-support" name="frameworks_hwkeys-support" remote="llos" revision="oreo-mr1" />
+    <project path="frameworks/av" name="frameworks_av" remote="lluvia" revision="8.1" />
+    <project path="frameworks/base" name="frameworks_base" remote="lluvia" />
+    <project path="frameworks/native" name="frameworks_native" remote="lluvia" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="lluvia" />
+    <project path="frameworks/support" name="frameworks_support" remote="lluvia" revision="8.0" />
+    <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="lluvia" />
+    <project path="frameworks/hwkeys-support" name="frameworks_hwkeys-support" remote="lluvia" revision="oreo-mr1" />
+
+    <!-- hardware -->
+    < project path="hardware/interfaces" name="hardware_interfaces"  remote="LLuvia" />   
     
     <!-- packages -->
-    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="llos" />
-    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="llos"  />
-    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="llos"  />
-    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="llos"  />
-    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="llos" revision="oreo" />
-    <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="llos"  />
-    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="llos" revision="oreo" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="llos"  />
-    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="llos" revision="O" />
-    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="llos"  />
-    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="llos"  />
-    <!-- project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="llos" revision="8.1"  -->
-    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="llos"  />
-    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="llos" />
-    <project path="packages_apps_ToRmEnTa" name="android_packages_apps_ToRmEnTa" remote="llos" />
-    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="llos" revision="oreo-mr1-ims" />
-    <!--project path="packages/apps/LLuviaOTA" name="android_packages_apps_LLuviaOTA" remote="llos" />
-    <project path="packages/overlays/LLuvia" name="android_packages_overlays_LLuvia" remote="llos" / -->
-    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="llos" revision="oreo-mr1" />
-    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="llos" />
+    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="lluvia" />
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="lluvia"  />
+    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="lluvia"  />
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="lluvia"  />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="lluvia" revision="oreo" />
+    <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="lluvia"  />
+    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="lluvia" revision="oreo" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lluvia"  />
+    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="lluvia" revision="O" />
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="lluvia"  />
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lluvia"  />
+    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lluvia"  />
+    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lluvia" />
+    <project path="packages_apps_ToRmEnTa" name="android_packages_apps_ToRmEnTa" remote="lluvia" />
+    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="lluvia" revision="oreo-mr1-ims" />
+    <!--project path="packages/apps/LLuviaOTA" name="android_packages_apps_LLuviaOTA" remote="lluvia" /-->
+    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="lluvia" revision="oreo-mr1" />
+    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="lluvia" />
 
     <!-- services -->
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="llos" />
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="llos" revision="oreo-mr1" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lluvia" revision="oreo-mr1" />
 
     <!-- vendor -->
-    <project path="vendor/lluvia" name="platform_vendor_lluvia" remote="llos" />
-    <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="llos" />
-    <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="llos" />
-    <project path="vendor/qcom/opensource/rcs-service" name="vendor_qcom_rcs-service" remote="llos" />
-    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="llos" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="llos" />
-    <!-- project path="vendor/qcom/opensource/bluetooth" name="LLuviaOS/vendor_qcom_opensource_bluetooth" remote="llos" revision="android-8.1" -->
+    <project path="vendor/lluvia" name="platform_vendor_lluvia" remote="lluvia" />
+    <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="lluvia" />
+    <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="lluvia" />
+    <project path="vendor/qcom/opensource/rcs-service" name="vendor_qcom_rcs-service" remote="lluvia" />
+    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="lluvia" />
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="lluvia" />
 
     <!-- qcom -->
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="llos" />
-    <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="llos" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" />
+    <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="lluvia" />
     
     <!-- DUI -->
-    <project path="external/DUtils" name="android_external_DUtils" remote="llos" revision="oreo"/>
-    <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="llos" revision="oreo"/>
+    <project path="external/DUtils" name="android_external_DUtils" remote="lluvia" revision="oreo"/>
+    <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="lluvia" revision="oreo"/>
     
 </manifest>
 
