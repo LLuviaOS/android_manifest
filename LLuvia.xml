@@ -114,5 +114,10 @@
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="llos" />
     <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="llos" />
+    
+    <!-- DUI -->
+    <project path="external/DUtils" name="android_external_DUtils" remote="llos" revision="oreo"/>
+    <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="llos" revision="oreo"/>
+    
 </manifest>
 
