@@ -89,7 +89,6 @@
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="llos"  />
     <!-- project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="llos" revision="8.1"  -->
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="llos"  />
-    <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="llos" revision="oreo-mr1" />
     <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="llos" />
     <project path="packages_apps_ToRmEnTa" name="android_packages_apps_ToRmEnTa" remote="llos" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="llos" revision="oreo-mr1-ims" />
