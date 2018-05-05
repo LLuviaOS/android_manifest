@@ -8,6 +8,10 @@
     <remote name="lluvia"
         fetch="https://github.com/LLuviaOS"
         revision="8.1" />
+    
+    <remote  name="llos"
+           fetch="https://github.com/LLuviaDevices"
+           revision="8.1" />
 
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="lluvia" />
