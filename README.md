@@ -67,6 +67,6 @@
 - All devices MUST be configured as userdebug releases.
 - All devices MUST be configured for SELinux Enforcing.
 
-## our Community ##
-Telegram : https://t.me/LLuviaOs
-G+ : https://plus.google.com/communities/100235695574462029127?sqinv=TlRpNXYxMUszMDBZdGNxUTVubDNSWkFqbWd4OFlB
+## Our Community ##
+- Telegram : https://t.me/LLuviaOs
+- G+ : https://plus.google.com/communities/100235695574462029127?sqinv=TlRpNXYxMUszMDBZdGNxUTVubDNSWkFqbWd4OFlB
