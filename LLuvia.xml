@@ -82,7 +82,7 @@
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="hardware_interfaces"  remote="lluvia" />
-    <project path="hardware/lluvia/interfaces" name="hardware_lluvia_interfaces" remote="gzosp" >
+    <project path="hardware/lluvia/interfaces" name="hardware_lluvia_interfaces" remote="lluvia" >
       <copyfile dest="hardware/lluvia/Android.bp" src="Android.bp"/>
     
     <!-- packages -->
