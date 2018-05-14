@@ -135,6 +135,9 @@
 
     <!-- Wireguard support -->
     <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" />
+    
+    <!-- HVX Neural Network -->
+    <project path="hardware/qcom/neuralnetworks/hvxservice" name="android_hardware_qcom_neuralnetworks_hvxservice" remote="lluvia" />
 
 </manifest>
 
