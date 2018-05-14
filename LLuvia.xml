@@ -12,7 +12,12 @@
     <remote  name="llos"
            fetch="https://github.com/LLuviaDevices"
            revision="8.1" />
-
+    
+    <remote name="zx2c4"
+           fetch="https://git.zx2c4.com/"
+           revision="master" 
+           sync-s="true"/>
+    
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="lluvia" />
 
@@ -127,6 +132,9 @@
     <!-- DUI -->
     <project path="external/DUtils" name="android_external_DUtils" remote="lluvia" revision="c8.1"/>
     <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="lluvia" revision="c8.1"/>
-    
+
+    <!-- Wireguard support -->
+    <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" />
+
 </manifest>
 
