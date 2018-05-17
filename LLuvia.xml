@@ -140,5 +140,8 @@
     <!-- HVX Neural Network -->
     <project path="hardware/qcom/neuralnetworks/hvxservice" name="android_hardware_qcom_neuralnetworks_hvxservice" remote="lluvia" />
 
+    <!-- Device Settings -->
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lluvia" revision="lineage-15.1" />
+    
 </manifest>
 
