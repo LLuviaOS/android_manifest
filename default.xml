@@ -573,7 +573,6 @@
   <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
-  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" />
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
