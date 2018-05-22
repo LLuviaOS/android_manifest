@@ -47,11 +47,10 @@
     <project path="external/exfat" name="android_external_exfat" remote="lluvia" />
     <project path="external/connectivity" name="external_connectivity" remote="lluvia" />
     <project path="external/ebtables" name="external_ebtables" remote="lluvia" />
-    <project path="external/htop" name="external_htop" remote="lluvia" revision="o8x-caf" />
+    <project path="external/htop" name="external_htop" remote="lluvia" />
     <project path="external/json-c" name="external_json-c" remote="lluvia" />
     <project path="external/libncurses" name="external_libncurses" remote="lluvia" />
     <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="lluvia" />
-    <project path="external/libtextclassifier" name="external_libtextclassifier" groups="pdk" remote="lluvia" revision="o-mr1-iot-preview-7" />
     <project path="external/mksh" name="external_mksh" groups="pdk" remote="lluvia" />
     <project path="external/nano" name="external_nano" remote="lluvia" />
     <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="lluvia" />
