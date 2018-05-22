@@ -45,7 +45,6 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="lluvia" />
     <project path="external/selinux" name="android_external_selinux" remote="lluvia" />
     <project path="external/fuse" name="android_external_fuse" remote="lluvia" />
-    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lluvia" revision="oreo-mr1" />
     <project path="external/exfat" name="android_external_exfat" remote="lluvia" />
     <project path="external/connectivity" name="external_connectivity" remote="lluvia" />
     <project path="external/ebtables" name="external_ebtables" remote="lluvia" />
