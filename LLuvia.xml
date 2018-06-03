@@ -68,6 +68,7 @@
     <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="lluvia"  />
     <project path="system/update_engine" name="android_system_update_engine" remote="lluvia" />
     <project path="system/media" name="android_system_media" remote="lluvia"  />
+    <project path="system/netd" name="android_system_netd" remote="lluvia" />
     <project path="system/nfc" name="android_system_nfc" remote="lluvia"  />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia"  />
     <project path="system/qcom" name="android_system_qcom" remote="lluvia" />
