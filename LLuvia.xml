@@ -87,6 +87,15 @@
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="hardware_interfaces"  remote="lluvia" />
+      <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" revision="8.1-caf-8998" />
     <project path="hardware/lluvia/interfaces" name="hardware_lluvia_interfaces" remote="lluvia" >
       <copyfile dest="hardware/lluvia/Android.bp" src="Android.bp"/>
     </project>
