@@ -60,7 +60,7 @@
    $ . build/envsetup.sh
    $ lunch LLuvia_device-userdebug
    $ lunch #select your device from lunch menu
-   $ make rain
+   $ mka lluvia OR brunch ur device code name  eg : brunch berkely
    ```
    
 ## For Official Support ##
