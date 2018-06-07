@@ -151,6 +151,8 @@
 
     <!-- Device Settings -->
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lluvia" revision="lineage-15.1" />
+
+    <!-- OTA config -->
+    <project path="OTA/config" name="OTA_config" remote="lluvia" />
     
 </manifest>
-
