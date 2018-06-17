@@ -9,7 +9,7 @@
         fetch="https://github.com/LLuviaOS"
         revision="8.1" />
     
-    <remote  name="llos"
+    <remote name="LLuviaDevices"
            fetch="https://github.com/LLuviaDevices"
            revision="8.1" />
     
