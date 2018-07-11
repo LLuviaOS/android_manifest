@@ -90,4 +90,8 @@
   <!-- Eleven -->
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="los" revision="lineage-15.1" />
 
+
+  <!-- AudioFX -->
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="los" revision="lineage-15.1" />
+   
 </manifest>
