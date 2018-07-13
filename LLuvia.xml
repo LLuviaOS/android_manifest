@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Github remote -->
+    <!-- Remotes -->
     <remote name="github"
         fetch="https://github.com/" />
 
@@ -17,10 +17,10 @@
            fetch="https://git.zx2c4.com/"
            revision="master" 
            sync-s="true"/>
-    
+
+    <!-- LLuvia Repos -->
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="lluvia" />
-
     <project path="build/make" name="android_build" remote="lluvia" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -30,14 +30,11 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-
     <project path="build/soong" name="android_build_soong" remote="lluvia" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-
     <project path="bionic" name="android_bionic" remote="lluvia" />
-
     <project path="bootable/recovery" name="android_bootable_recovery" remote="lluvia" />
 
     <!-- external -->
