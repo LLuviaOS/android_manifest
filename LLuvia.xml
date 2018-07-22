@@ -40,20 +40,7 @@
     <!-- external -->
     <project path="art" name="art" groups="pdk" remote="lluvia" />
     <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="lluvia" />
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="lluvia" />
-    <project path="external/selinux" name="android_external_selinux" remote="lluvia" />
-    <project path="external/fuse" name="android_external_fuse" remote="lluvia" />
-    <project path="external/exfat" name="android_external_exfat" remote="lluvia" />
-    <project path="external/connectivity" name="external_connectivity" remote="lluvia" />
-    <project path="external/ebtables" name="external_ebtables" remote="lluvia" />
-    <project path="external/htop" name="external_htop" remote="lluvia" />
-    <project path="external/json-c" name="external_json-c" remote="lluvia" />
-    <project path="external/libncurses" name="external_libncurses" remote="lluvia" />
-    <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="lluvia" />
-    <project path="external/mksh" name="external_mksh" groups="pdk" remote="lluvia" />
-    <project path="external/nano" name="external_nano" remote="lluvia" />
     <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="lluvia" />
-    <project path="external/toybox" name="external_toybox" remote="lluvia" />
     <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="lluvia" />
     <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="lluvia" />
     <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="lluvia" />
