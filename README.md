@@ -1,4 +1,5 @@
 # LLuvia OS #
+<img src="https://raw.githubusercontent.com/LLuviaOS/XDA-Template/8.1/img/abt.png" > 
 
 ## Setting up your Linux Distribution for Android Compiling: ##
    -  ## Installing Repo ##
