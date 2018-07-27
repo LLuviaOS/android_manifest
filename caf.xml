@@ -66,6 +66,7 @@
   <!-- Common -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="los" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="los" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
    
   <!-- Eleven -->
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="los" revision="lineage-15.1" />
