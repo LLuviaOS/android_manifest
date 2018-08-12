@@ -17,11 +17,15 @@
            fetch="https://git.zx2c4.com/"
            revision="master" 
            sync-s="true"/>
-
+    
+    <remote name="drizzle"
+        fetch="https://gitlab.com/LLuviaOS"
+        revision="lluvia-2.x" />
+    
     <!-- LLuvia Repos -->
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="lluvia" />
-    <project path="build/make" name="android_build" remote="lluvia" >
+    <project path="build/make" name="android_build" remote="lluvia" revision="lluvia-2.x" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -30,11 +34,11 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="build/soong" name="android_build_soong" remote="lluvia" >
+    <project path="build/soong" name="android_build_soong" remote="lluvia" revision="lluvia-2.x" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="bionic" name="android_bionic" remote="lluvia" />
+    <project path="bionic" name="android_bionic" remote="lluvia" revision="lluvia-2.x" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="lluvia" />
 
     <!-- external -->
@@ -63,21 +67,20 @@
 
     <!-- frameworks -->
     <project path="frameworks/av" name="frameworks_av" remote="lluvia" revision="8.1" />
-    <project path="frameworks/base" name="frameworks_base" remote="lluvia" />
+    <project path="frameworks/base" name="frameworks_base" remote="drizzle" />
     <project path="frameworks/native" name="frameworks_native" remote="lluvia" />
-    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="lluvia" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="lluvia" revision="lluvia-2.x" />
     <project path="frameworks/support" name="frameworks_support" remote="lluvia" revision="8.1" />
-    <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="lluvia" />
+    <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="lluvia" revision="lluvia-2.x" />
     <project path="frameworks/hwkeys-support" name="frameworks_hwkeys-support" remote="lluvia" revision="oreo-mr1" />
 
     <!-- hardware -->
-    <project path="hardware/interfaces" name="hardware_interfaces"  remote="lluvia" />
-    <project path="hardware/lluvia/interfaces" name="hardware_lluvia_interfaces" remote="lluvia" >
+    <project path="hardware/interfaces" name="hardware_interfaces"  remote="lluvia" revision="lluvia-2.x" />
+    <project path="hardware/lluvia/interfaces" name="hardware_lluvia_interfaces" remote="lluvia" revision="lluvia-2.x" >
       <copyfile dest="hardware/lluvia/Android.bp" src="Android.bp"/>
     </project>
     
     <!-- packages -->
-    <project path="packages/apps/ParanoidCamera" name="android_packages_apps_ParanoidCamera" remote="lluvia" revision="oreo-mr1" />
     <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="lluvia" />
     <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="lluvia"  />
     <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="lluvia" />
@@ -87,37 +90,36 @@
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="lluvia" revision="oreo" />
     <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="lluvia"  />
     <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="lluvia" revision="oreo" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lluvia"  />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lluvia" revision="lluvia-2.x" />
     <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="lluvia" revision="O" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="lluvia"  />
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lluvia"  />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lluvia"  />
     <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lluvia" />
-    <project path="packages/apps/Tormenta" name="android_packages_apps_Tormenta" remote="lluvia" />
+    <project path="packages/apps/ToRmEnTa" name="android_packages_apps_Tormenta" remote="lluvia" revision="lluvia-2.x" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="lluvia" revision="oreo-mr1-ims" />
-    <project path="packages/apps/RainBow" name="android_packages_apps_RainBow" remote="lluvia" />
     <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="lluvia" revision="oreo-mr1" />
     <project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" remote="lluvia" revision="oreo" />
 
     <!-- services -->
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" />
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lluvia" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" revision="lluvia-2.x" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lluvia" revision="lluvia-2.x"/>
 
     <!-- vendor -->
-    <project path="vendor/lluvia" name="platform_vendor_lluvia" remote="lluvia" />
+    <project path="vendor/lluvia" name="platform_vendor_lluvia" remote="lluvia" revision="lluvia-2.x" />
     <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="lluvia" />
     <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="lluvia" />
     <project path="vendor/qcom/opensource/rcs-service" name="vendor_qcom_rcs-service" remote="lluvia" />
-    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="lluvia" />
+    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="lluvia" revision="lluvia-2.x" />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="lluvia" />
 
     <!-- qcom -->
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" />
-    <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="lluvia" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" revision="lluvia-2.x" />
+    <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="lluvia" revision="lluvia-2.x" />
     
     <!-- DUI -->
-    <project path="external/DUtils" name="android_external_DUtils" remote="lluvia" />
-    <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="lluvia" />
+    <project path="external/DUtils" name="android_external_DUtils" remote="lluvia" revision="lluvia-2.x" />
+    <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="lluvia" revision="lluvia-2.x" />
 
     <!-- Wireguard support -->
     <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" />
@@ -127,6 +129,55 @@
 
     <!-- Device Settings -->
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lluvia" revision="lineage-15.1" />
+
+    <!-- Hardware -->
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-8084" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-8916" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-8952" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-8960" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-8974" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-8994" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-8996" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-8998" remote="lluvia" />
+  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" revision="lluvia-2.x-caf-845" remote="lluvia" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="lluvia" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" revision="lluvia-2.x-caf" remote="lluvia" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-8084" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-8916" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-8952" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-8960" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-8974" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-8994" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-8996" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-8998" remote="lluvia" />
+  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" revision="lluvia-2.x-caf-845" remote="lluvia" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-8084" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-8916" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-8952" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-8960" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-8974" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-8994" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-8996" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-8998" remote="lluvia" />
+  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" revision="lluvia-2.x-caf-845" remote="lluvia" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="lluvia" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk" remote="lluvia" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lluvia" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="lluvia" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="lluvia" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lluvia" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="lluvia" revision="lluvia-2.x-caf" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lluvia" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="lluvia" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="lluvia" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="lluvia" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="lluvia" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lluvia" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lluvia" revision="lluvia-2.x-caf" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="lluvia" />
 
     <!-- OTA config -->
     <!-- project path="OTA/config" name="OTA_config" remote="lluvia" /-->

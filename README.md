@@ -1,5 +1,5 @@
 # LLuvia OS #
-<img src="https://raw.githubusercontent.com/LLuviaOS/XDA-Template/8.1/img/abt.png" > 
+<img src="https://raw.githubusercontent.com/LLuviaOS/XDA-Template/8.1/img/loogo-01.png" > 
 
 ## Setting up your Linux Distribution for Android Compiling: ##
    -  ## Installing Repo ##
@@ -28,7 +28,7 @@
 
    # Install Repo in the created directory
    # Use a real name/email combination, if you intend to submit patches
-   $ repo init -u https://github.com/LLuviaOS/platform_manifest -b 8.1
+   $ repo init -u https://github.com/LLuviaOS/platform_manifest -b lluvia-2.x
    ```
    
    - ## Necessary tools/packages to build LLuvia ##
@@ -59,9 +59,9 @@
 ## TO build LLuvia  ##
 ```bash
    $ . build/envsetup.sh
-   $ lunch LLuvia_device-userdebug
+   $ lunch lluvia_device-userdebug
    $ lunch #select your device from lunch menu
-   $ mka lluvia OR brunch ur device code name  eg : brunch berkely
+   $ time mka Thunder
    ```
    
 ## For Official Support ##

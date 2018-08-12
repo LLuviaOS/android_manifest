@@ -5,69 +5,19 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <remote  name="gzosp"
-           fetch="https://github.com/GZOSP"
-           revision="8.1" />
-
   <remote  name="los"
            fetch="https://github.com/LineageOS" 
            revision="refs/heads/lineage-15.1" />
 
-  <!-- Hardware -->
-  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-8084" remote="los" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-8916" remote="los" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-8952" remote="los" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-8960" remote="los" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-8974" remote="los" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-8994" remote="los" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-8996" remote="los" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-8998" remote="los" />
-  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" revision="lineage-15.1-caf-845" remote="los" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="los" />
-  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" revision="lineage-15.1-caf" remote="los" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
-  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" revision="lineage-15.1-caf-8084" remote="los" />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" revision="lineage-15.1-caf-8916" remote="los" />
-  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" revision="lineage-15.1-caf-8952" remote="los" />
-  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" revision="lineage-15.1-caf-8960" remote="los" />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" revision="lineage-15.1-caf-8974" remote="los" />
-  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" revision="lineage-15.1-caf-8994" remote="los" />
-  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="lineage-15.1-caf-8996" remote="los" />
-  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" revision="lineage-15.1-caf-8998" remote="los" />
-  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" revision="lineage-15.1-caf-845" remote="los" />
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" />
-  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" revision="lineage-15.1-caf-8084" remote="los" />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" revision="lineage-15.1-caf-8916" remote="los" />
-  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" revision="lineage-15.1-caf-8952" remote="los" />
-  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" revision="lineage-15.1-caf-8960" remote="los" />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" revision="lineage-15.1-caf-8974" remote="los" />
-  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" revision="lineage-15.1-caf-8994" remote="los" />
-  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" revision="lineage-15.1-caf-8996" remote="los" />
-  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" revision="lineage-15.1-caf-8998" remote="los" />
-  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" revision="lineage-15.1-caf-845" remote="los" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk" remote="gzosp" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="los" />
-  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
-  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
-  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-15.1-caf" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="los" />
-  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="los" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="los" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="los" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" />
-  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" revision="lineage-15.1-caf" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="los" />
+  <remote name="lluvia"
+	   fetch="https://github.com/LLuviaOS"
+           revision="8.1" />
 
   <!-- External -->
-  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" clone-depth="1" remote="gzosp" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lluvia" />
    
   <!-- Common -->
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="los" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="los" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="lluvia" revision="lluvia-2.x" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
    
   <!-- Eleven -->
