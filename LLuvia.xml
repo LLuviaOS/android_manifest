@@ -63,7 +63,7 @@
     <project path="system/qcom" name="android_system_qcom" remote="lluvia" />
     <project path="system/vold" name="android_system_vold" remote="lluvia"  />
     <project path="system/libhidl" name="android_system_libhidl" remote="lluvia" /> 
-    <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lluvia" />
+    <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lluvia" revision="lluvia-2.x" />
 
     <!-- frameworks -->
     <project path="frameworks/av" name="frameworks_av" remote="lluvia" revision="8.1" />
