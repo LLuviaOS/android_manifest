@@ -179,7 +179,7 @@
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lluvia" revision="lluvia-2.x-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="lluvia" />
 
-    <!-- OTA config -->
-    <!-- project path="OTA/config" name="OTA_config" remote="lluvia" /-->
+  <!-- Music Player-->
+  <project path="packages/apps/Music-Player" name="andremion/Music-Player" remote="github" revision="master" />
     
 </manifest>
