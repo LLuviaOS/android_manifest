@@ -9,21 +9,28 @@
            fetch="https://github.com/LineageOS" 
            revision="refs/heads/lineage-15.1" />
 
-  <remote name="lluvia"
+  <remote name="llos"
 	   fetch="https://github.com/LLuviaOS"
            revision="8.1" />
 
   <!-- External -->
-  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lluvia" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="llos" />
    
-  <!-- Common -->
-  <project path="device/qcom/common" name="device_qcom_common" remote="lluvia" revision="lluvia-2.x" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
-   
-  <!-- Eleven -->
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="los" revision="lineage-15.1" />
 
+    <!-- HVX Neural Network -->
+    <project path="hardware/qcom/neuralnetworks/hvxservice" name="android_hardware_qcom_neuralnetworks_hvxservice" remote="los" />
+
+    <!-- Device Settings -->
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
+   
   <!-- externals -->
+  <project path="art" name="art" groups="pdk" remote="llos" />
+  <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="llos" />
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="llos" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="llos" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="llos" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="llos" />
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/brctl" name="android_external_brctl" remote="los" />
   <project path="external/powertop" name="android_external_powertop" remote="los" />

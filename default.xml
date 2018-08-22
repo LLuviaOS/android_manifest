@@ -617,12 +617,12 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Remove unused AOSP repos -->
-  <include name="remove.xml" />
+  <!-- Remove unused LLOSP repos -->
+  <include name="oreo/remove.xml" />
 
   <!-- LLuvia repos -->
-  <include name="LLuvia.xml" />
+  <include name="oreo/LLuvia.xml" />
 
-  <!-- GZOSP CAF manifest -->
-  <include name="caf.xml" />
+  <!-- external repos -->
+  <include name="oreo/external.xml" />
 </manifest>
