@@ -11,7 +11,7 @@
     
     <remote name="LLuviaDevices"
            fetch="https://github.com/LLuviaDevices"
-           revision="8.1" />
+           revision="lluvia-2.x" />
     
     <remote name="zx2c4"
            fetch="https://git.zx2c4.com/"
