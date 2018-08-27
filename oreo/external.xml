@@ -31,6 +31,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="llos" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="llos" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="llos" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
   <project path="external/connectivity" name="android_external_connectivity" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/brctl" name="android_external_brctl" remote="los" />
