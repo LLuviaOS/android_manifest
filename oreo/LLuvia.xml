@@ -63,7 +63,7 @@
     <!-- frameworks -->
     <project path="frameworks/av" name="frameworks_av" remote="lluvia" />
     <project path="frameworks/base" name="frameworks_base" remote="drizzle" />
-    <project path="frameworks/native" name="frameworks_native" remote="lluvia" revision="8.1" />
+    <project path="frameworks/native" name="frameworks_native" remote="lluvia" />
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="lluvia" />
     <project path="frameworks/support" name="frameworks_support" remote="lluvia" revision="8.1" />
     <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="lluvia" />
@@ -76,29 +76,24 @@
     </project>
     
     <!-- packages -->
-    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="lluvia" revision="8.1" />
-    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="lluvia"  />
-    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="lluvia" revision="8.1" />
-    <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="lluvia" revision="8.1"  />
-    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="lluvia" revision="8.1" />
-    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="lluvia" />
-    <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="lluvia" revision="8.1" />
-    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="lluvia" revision="oreo" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lluvia" />
-    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="lluvia" revision="O" />
-    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="lluvia" revision="8.1" />
-    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lluvia" revision="8.1" />
-    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lluvia" revision="8.1" />
-    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lluvia" revision="8.1" />
-    <project path="packages/apps/ToRmEnTa" name="android_packages_apps_Tormenta" remote="lluvia" revision="lluvia-2.x" />
-    <project path="packages/apps/ParanoidCamera" name="android_packages_apps_ParanoidCamera" remote="lluvia" revision="lluvia-2.x" />
-    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="lluvia" revision="oreo-mr1-ims" />
-    <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="lluvia" revision="oreo-mr1" />
-    <project path="packages/apps/SlimRecents" name="android_packages_apps_SlimRecents" remote="lluvia" revision="oreo" />
-
-    <!-- services -->
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" revision="lluvia-2.x" />
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lluvia" revision="lluvia-2.x"/>
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="lluvia" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="lluvia"  revision="8.1" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="lluvia" revision="8.1"  />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="lluvia" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="lluvia"  revision="8.1" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="lluvia" />
+  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="lluvia"  revision="oreo-mr1" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lluvia" />
+  <project path="packages/apps/ToRmEnTa" name="android_packages_apps_Tormenta" remote="lluvia" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="lluvia" revision="O" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="lluvia" revision="oreo" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lluvia" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="lluvia" revision="8.1" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lluvia" />
+  <project path="packages/apps/ParanoidCamera" name="android_packages_apps_ParanoidCamera" remote="lluvia" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lluvia" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lluvia" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" />
 
     <!-- vendor -->
    <project path="vendor/lluvia" name="platform_vendor_lluvia" remote="lluvia" />
@@ -171,9 +166,6 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lluvia" revision="8.1" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="lluvia" revision="lluvia-2.x-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="lluvia" revision="8.1" />
-
-  <!-- Music Player-->
-  <!-- project path="packages/apps/Music-Player" name="andremion/Music-Player" remote="github" revision="master" /-->
     
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="lluvia"/>
