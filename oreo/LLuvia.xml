@@ -46,12 +46,12 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="lluvia" />
     
     <!-- system -->
-    <project path="system/bt" name="android_system_bt" remote="lluvia" revision="8.1" />
+    <project path="system/bt" name="android_system_bt" remote="lluvia" />
     <project path="system/core" name="android_system_core" remote="lluvia"  />
     <project path="system/extras" name="android_system_extras" remote="lluvia" />
     <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="lluvia" revision="8.1" />
     <project path="system/update_engine" name="android_system_update_engine" remote="lluvia" revision="8.1" />
-    <project path="system/media" name="android_system_media" remote="lluvia" revision="8.1"  />
+    <project path="system/media" name="android_system_media" remote="lluvia" />
     <project path="system/netd" name="android_system_netd" remote="lluvia" revision="8.1" />
     <project path="system/nfc" name="android_system_nfc" remote="lluvia" revision="8.1" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia" revision="8.1" />
