@@ -35,6 +35,7 @@
     <project path="system/qcom" name="android_system_qcom" remote="lluvia" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia" />
     <project path="system/vold" name="android_system_vold" remote="lluvia" />
+    <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lluvia" />
 
 
     <!-- Frameworks -->
