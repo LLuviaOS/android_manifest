@@ -70,7 +70,6 @@
 
     <!-- Vendor -->
     <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
-    <project path="vendor/lluvia/themes" name="android_vendor_lluvia_themes" remote="lluvia" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lluvia" />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lluvia" />
     <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="lluvia" />
