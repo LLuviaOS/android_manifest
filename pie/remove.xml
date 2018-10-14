@@ -50,6 +50,7 @@
   <!-- External repos -->
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/libphonenumber" />
+  <remove-project name="platform/external/selinux" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />

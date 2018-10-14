@@ -27,6 +27,7 @@
     <project path="external/libphonenumber" name="android_external_libphonenumber" remote="lluvia" />
     <project path="external/perfetto" name="android_external_perfetto" remote="lluvia" />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="lluvia" />
+    <project path="external/selinux" name="android_external_selinux" remote="lluvia" />
 
     <!-- System -->
     <project path="system/bt" name="android_system_bt" remote="lluvia" />
