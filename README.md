@@ -1,5 +1,7 @@
 # LLuviaOS-Pie
-![LLuvia](https://github.com/LLuviaOS/XDA-Template/blob/lluvia-2.x/img/3.x.png)
+<p align="center">
+  <img width="300" height="300" src="https://github.com/LLuviaOS/XDA-Template/blob/lluvia-2.x/img/lluvia_3.x.png">
+</p>
 
 ## Setting up your Linux Distribution for Android Compiling: ##
    -  ## Installing Repo ##
