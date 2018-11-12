@@ -16,7 +16,7 @@
           fetch="https://github.com/LLuvia-OS"
 	  revision="3.0" />
 
-  <remote name="LLuviaDevices"
+  <remote name="devices"
 	  fetch="https://github.com/LLuviaDevices"
 	  revision="3.0" />
 		   
