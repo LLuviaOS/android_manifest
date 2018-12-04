@@ -1,4 +1,4 @@
-# LLuviaOS-Pie
+# LLuviaOS 3.x
 <p align="center">
   <img width="300" height="300" src="https://github.com/LLuviaOS/XDA-Template/blob/lluvia-2.x/img/lluvia_3.x.png">
 </p>
@@ -30,7 +30,7 @@
 
    # Install Repo in the created directory
    # Use a real name/email combination, if you intend to submit patches
-   $ repo init -u https://github.com/LLuvia-OS/android_manifest -b 3.0
+   $ repo init -u https://github.com/LLuviaOS/android_manifest -b 3.0
    
    # To sync lluvia repo
    $ repo sync -c -f --force-sync --no-tags --no-clone-bundle -j8

@@ -12,14 +12,6 @@
            sync-c="true"
            sync-f="true" />
 
-  <remote name="lluvia"
-          fetch="https://github.com/LLuvia-OS"
-	  revision="3.0" />
-
-  <remote name="devices"
-	  fetch="https://github.com/LLuviaDevices"
-	  revision="3.0" />
-		   
   <remote name="github"
 	      fetch="https://github.com/" />
 
@@ -728,10 +720,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Remove unused AOSP repos -->
-  <include name="pie/remove.xml" />
-
   <!-- Manifest for LLuviaOS -->
-  <include name="pie/lluvia.xml" />
-  <include name="pie/hardware.xml" />
+  <include name="lluvia.xml" />
+
 </manifest>

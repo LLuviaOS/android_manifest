@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- LLuviaOS remote -->
+  <remote name="lluvia"
+          fetch="https://github.com/LLuviaOS"
+          revision="refs/heads/3.0"
+          sync-j="16" />
+		  
+  <!-- LLuviaDevices remote -->
+  <remote name="devices"
+          fetch="https://github.com/LLuviaDevices"
+          revision="refs/heads/3.0"
+          sync-j="16" />
+		   
+  <!-- Removed projects -->	   
+  <include name="remove.xml" />
+
+  <!-- Imported projects -->
+  <include name="lluvia/build.xml" />
+  <include name="lluvia/devices.xml" />
+  <include name="lluvia/external.xml" />
+  <include name="lluvia/frameworks.xml" />
+  <include name="lluvia/hals.xml" />
+  <include name="lluvia/packages.xml" />
+  <include name="lluvia/prebuilts.xml" />
+  <include name="lluvia/system.xml" />
+  <include name="lluvia/vendors.xml" />
+
+</manifest>

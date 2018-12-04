@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device -->
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" />
+    <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="lluvia" />
+    <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="lluvia" />
+
+</manifest>

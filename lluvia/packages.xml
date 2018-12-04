@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Apps -->
+    <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="lluvia" />
+    <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="lluvia" />
+    <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="lluvia" />
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="lluvia" />
+    <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="lluvia" />
+    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lluvia" />
+    <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lluvia" />
+    <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="lluvia" />
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="lluvia" />
+    <project path="packages/apps/MJolNiR" name="android_packages_apps_MJolNiR" remote="lluvia" />
+    <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="lluvia" />
+    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="lluvia" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lluvia" />
+    <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="lluvia" />
+
+    <!-- Other Packages -->
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="lluvia" />
+    <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="lluvia" />
+    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lluvia" />
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lluvia" />
+    <project path="packages/resources/devicesettings"  name="android_packages_resources_devicesettings" remote="lluvia" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lluvia" />	
+
+</manifest>
