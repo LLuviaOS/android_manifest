@@ -10,5 +10,5 @@
     <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia" />
     <project path="system/vold" name="android_system_vold" remote="lluvia" />
     <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lluvia" />
-
+    <project path="system/update_engine" name="android_system_update_engine" remote="lluvia"/>
 </manifest>
