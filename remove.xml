@@ -54,6 +54,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/f2fs-tools" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />

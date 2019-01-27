@@ -6,11 +6,14 @@
     <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lluvia" />
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lluvia" />
     <project path="external/DUI" name="android_external_DUI" remote="lluvia" />
-    <project path="external/exfat" name="android_external_exfat" remote="lluvia" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lluvia" />
-    <project path="external/libphonenumber" name="android_external_libphonenumber" remote="lluvia" />
-    <project path="external/perfetto" name="android_external_perfetto" remote="lluvia" />
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="lluvia" />
-    <project path="external/selinux" name="android_external_selinux" remote="lluvia" />
+    <project path="external/libphonenumber" name="android_external_libphonenumber" remote="lluvia" /> 
+    <project path="external/exfat" name="external_exfat" remote="gzosp" />
+    <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="gzosp" />
+    <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
+    <project path="external/json-c" name="external_json-c" remote="gzosp" />
+    <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="gzosp" />
+    <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
+    <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
 
 </manifest>
