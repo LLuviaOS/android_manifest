@@ -5,7 +5,7 @@
     <project path="system/bt" name="android_system_bt" remote="lluvia" />
     <project path="system/core" name="android_system_core" remote="lluvia" />
     <project path="system/extras" name="android_system_extras" remote="lluvia" />
-    <project path="system/qcom" name="android_system_qcom" remote="lluvia" />
+    <project path="system/qcom" name="system_qcom" remote="gzosp" revision="9.0" />
     <project path="system/netd" name="android_system_netd" remote="lluvia" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia" />
     <project path="system/vold" name="android_system_vold" remote="lluvia" />

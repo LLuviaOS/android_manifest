@@ -76,6 +76,7 @@
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -97,6 +98,7 @@
   <remove-project name="platform/hardware/qcom/sdm845/media" />
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />

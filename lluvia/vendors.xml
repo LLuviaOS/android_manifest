@@ -2,12 +2,15 @@
 <manifest>
 
     <!-- Vendor -->
-    <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
-    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lluvia" />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lluvia" />
-    <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="lluvia" />
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lluvia" />
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lluvia" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lluvia" />
+  <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="lluvia" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="gzosp" revision="9.0" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="gzosp" revision="9.0" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="gzosp" revision="9.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="gzosp" revision="9.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="gzosp" revision="9.0" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="gzosp" revision="9.0" />
 
 </manifest>
