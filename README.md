@@ -47,7 +47,8 @@
    
 ## For Official Support ##
 - All devices MUST be configured as userdebug releases.
-- All devices MUST be configured for SELinux Enforcing.
+Build Unofficial and release in xda then apply for official support.
+Form: https://goo.gl/forms/lad1qDHLKttcffei2
 
 ## Our Community ##
 - Telegram : https://t.me/LLuviaOs
