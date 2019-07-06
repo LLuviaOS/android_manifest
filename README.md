@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/LLuviaOS/XDA-Template/blob/LL-3.1/lluvia.png"> 
+<img src="https://github.com/LLuviaOS/XDA-Template/blob/LL-3.1/img/lluvia.png"> 
 </p>
 
 LLuviaOS-X Pie
