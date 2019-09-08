@@ -21,18 +21,18 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lluvia" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lluvia" />
   <project path="external/json-c" name="android_external_json-c" remote="lluvia" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" remote="lluvia" revision="LL-4.X-caf-8998"/>
-  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
-  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="lluvia" revision="LL-4.X-caf"/>
-  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="lluvia" revision="LL-4.X-caf-8998"/>
-  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
-  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="lluvia" />
-  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="lluvia" revision="LL-4.X-caf-8998"/>
-  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="lluvia" />
-  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="lluvia" />
-  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="lluvia" />
-  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="lluvia" revision="LL-4.X-caf"/>
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio-caf_msm8998" remote="lluvia" revision="LL-4.X-caf-8998"/>
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio-caf_sdm845" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
+  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt-caf" remote="lluvia" revision="LL-4.X-caf"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display-caf_msm8998" remote="lluvia" revision="LL-4.X-caf-8998"/>
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display-caf_sdm845" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
+  <project path="hardware/qcom-caf/fm" name="hardware_qcom_fm" remote="lluvia" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media-caf_msm8998" remote="lluvia" revision="LL-4.X-caf-8998"/>
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media-caf_sdm845" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
+  <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="lluvia" />
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="lluvia" />
+  <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" remote="lluvia" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan-caf" remote="lluvia" revision="LL-4.X-caf"/>
   <project path="system/qcom" name="android_system_qcom" remote="lluvia" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lluvia" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lluvia" />
