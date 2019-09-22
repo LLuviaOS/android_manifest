@@ -90,7 +90,7 @@
   <project path="manifest" name="android_manifest" remote="lluvia" />
   <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="lluvia-gitlab" clone-depth="1" />
-  <project path="vendor/lluviastyle" name="android_vendor_lluviastyle" remote="lluvia" />
+  <project path="vendor/tormenta" name="android_vendor_tormenta" remote="lluvia" />
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="lluvia" />
