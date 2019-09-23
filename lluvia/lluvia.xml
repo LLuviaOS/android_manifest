@@ -9,8 +9,8 @@
           fetch="https://github.com/LLuviaDevices"
           revision="LL-4.X" />
 
-  <remote name="gitlab"
-          fetch="https://gitlab.com" />
+  <remote name="lluvia_gitlab"
+          fetch="https://gitlab.com/LLuviaOpenSource" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" />
@@ -24,10 +24,10 @@
   <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="lluvia" revision="LL-4.X-caf"/>
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" remote="lluvia" revision="LL-4.X-caf-8998"/>
-  <project path="hardware/qcom/display-caf/sdm845" name="android_android_hardware_qcom_display" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
+  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="lluvia" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" remote="lluvia" revision="LL-4.X-caf-8998"/>
-  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media-" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
+  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="lluvia" />
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="lluvia" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="lluvia" />
@@ -71,7 +71,7 @@
   <!-- General repos -->
   <project path="art" name="android_art" remote="lluvia" />
   <project path="bionic" name="android_bionic" remote="lluvia" />
-  <project path="build/make" name="android_build" remote="lluvia">
+  <project path="build/make" name="android_build_make" remote="lluvia">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -86,14 +86,14 @@
   </project>
   <project path="bootable/recovery" name="android_bootable_recovery" remote="lluvia" />
   <project path="development" name="android_development" remote="lluvia" />
-  <!--project path="device/custom/sepolicy" name="android_device_custom_sepolicy" remote="lluvia" /-->
+  <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="lluvia" />
   <project path="manifest" name="android_manifest" remote="lluvia" />
   <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
-  <project path="vendor/gapps" name="android_vendor_gapps" remote="lluvia-gitlab" clone-depth="1" />
+  <!-- project path="vendor/gapps" name="android_vendor_gapps" remote="lluvia-gitlab" clone-depth="1" /-->
   <project path="vendor/tormenta" name="android_vendor_tormenta" remote="lluvia" />
 
   <!-- Hardware repos -->
-  <project path="hardware/custom/interfaces" name="android_hardware_custom_interfaces" remote="lluvia" />
+  <project path="hardware/lluvia/interfaces" name="android_hardware_lluvia_interfaces" remote="lluvia" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lluvia" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lluvia" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lluvia" />
@@ -116,7 +116,7 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lluvia" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lluvia" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lluvia" />
-  <!--project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="lluvia" /-->
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="lluvia" />
   <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" remote="lluvia" />
   <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="lluvia" />
   <project path="packages/providers/AmbientPlayHistoryProvider" name="android_packages_providers_AmbientPlayHistoryProvider" remote="lluvia" />
@@ -132,11 +132,9 @@
 
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" remote="lluvia" />
-  <project path="system/core" name="android_system_core" remote="lluvia" />
+  <project path="system/core" name="android_system_core" remote="lluvia_gitlab" />
   <project path="system/netd" name="android_system_netd" remote="lluvia" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lluvia" />
   <project path="system/vold" name="android_system_vold" remote="lluvia" />
-
 </manifest>
-`
