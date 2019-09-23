@@ -10,7 +10,8 @@
           revision="LL-4.X" />
 
   <remote name="lluvia_gitlab"
-          fetch="https://gitlab.com/LLuviaOpenSource" />
+          fetch="https://gitlab.com/LLuviaOpenSource"
+          revision="LL-4.X" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" />
