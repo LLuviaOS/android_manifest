@@ -16,41 +16,18 @@
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy" remote="lluvia" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lluvia" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lluvia" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lluvia" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="lluvia" />
-  <project path="external/json-c" name="android_external_json-c" remote="lluvia" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="lluvia" revision="LL-4.X-caf-8998"/>
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="lluvia" revision="LL-4.X-caf-sm8150"/>
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="lluvia" revision="LL-4.X-caf"/>
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="lluvia" revision="LL-4.X-caf-8998"/>
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="lluvia" revision="LL-4.X-caf-sm8150"/>
   <project path="hardware/qcom-caf/fm" name="android_hardware_qcom_fm" remote="lluvia" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="lluvia" revision="LL-4.X-caf-8998"/>
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="lluvia" revision="LL-4.X-caf-sdm845"/>
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="lluvia" revision="LL-4.X-caf-sm8150"/>
   <project path="hardware/qcom-caf/power" name="android_hardware_qcom_power" remote="lluvia" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lluvia" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lluvia" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lluvia" revision="LL-4.X-caf"/>
-  <project path="system/qcom" name="android_system_qcom" remote="lluvia" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lluvia" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lluvia" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lluvia" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lluvia" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lluvia" />
-  <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lluvia" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lluvia" />
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lluvia" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lluvia" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lluvia" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lluvia" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lluvia" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lluvia" />  
-  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lluvia" />
 
   <!-- Pathmap -->
    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="lluvia" >
@@ -60,33 +37,25 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <!-- add guards for CAF repositories -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+	
   </project>
-
-  <!-- External repos -->
-  <project path="external/boringssl" name="android_external_boringssl" remote="lluvia" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lluvia" />
-  <project path="external/elfutils" name="android_external_elfutils" remote="lluvia" />
-  <project path="external/exfat" name="android_external_exfat" remote="lluvia" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="lluvia" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lluvia" />
-  <project path="external/libpng" name="android_external_libpng" remote="lluvia" />
-  <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="lluvia" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lluvia" />
-  <project path="external/selinux" name="android_external_selinux" remote="lluvia" />
-  <project path="external/tinycompress" name="android_external_tinycompress" remote="lluvia" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="lluvia" />
@@ -122,19 +91,6 @@
   <!-- Hardware repos -->
   <project path="hardware/lluvia/interfaces" name="android_hardware_lluvia_interfaces" remote="lluvia" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lluvia" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lluvia" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lluvia" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lluvia" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lluvia" />
-  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lluvia" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="lluvia" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="lluvia" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="lluvia" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lluvia" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lluvia" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="lluvia" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lluvia" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="lluvia" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="lluvia" />
@@ -154,7 +110,6 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lluvia" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="lluvia" clone-depth="1" />
 
   <!-- System Repos -->
