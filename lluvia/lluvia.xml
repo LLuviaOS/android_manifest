@@ -89,6 +89,8 @@
   <project path="vendor/tormenta" name="android_vendor_tormenta" remote="lluvia" />
 
   <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="lluvia" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="lluvia" />
   <project path="hardware/lluvia/interfaces" name="android_hardware_lluvia_interfaces" remote="lluvia" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lluvia" />
 
