@@ -12,6 +12,10 @@
   <remote name="lluvia_gitlab"
           fetch="https://gitlab.com/LLuviaOpenSource"
           revision="LL-4.X" />
+  
+   <remote name="los"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-17.0" />
 
   <!-- LLUVIA -->
   <project path="manifest" name="android_manifest" remote="lluvia" />
