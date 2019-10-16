@@ -22,5 +22,5 @@ $ . build/envsetup.sh
 $ lunch lluvia_$device-userdebug
 
 # Build the code
-$ mka storm -jX
+$ time mka lluvia
 ```
