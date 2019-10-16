@@ -77,4 +77,7 @@
   <project path="prebuilts/tools-lluvia" name="android_prebuilts_tools-lluvia" remote="lluvia" clone-depth="1" />
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lluvia" clone-depth="1" />
 
+  <!-- Gapps -->
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="lluvia_gitlab" revision="LL-4.X" clone-depth="1" />
+  
 </manifest>
