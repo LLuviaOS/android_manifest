@@ -2,9 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-10.0.0_r3" />
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <default revision="refs/tags/android-10.0.0_r4"
+           remote="aosp"
+           sync-j="4" />
 
   <!-- AOSP -->
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
