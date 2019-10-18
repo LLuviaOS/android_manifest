@@ -59,6 +59,7 @@
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="lluvia" revision="LL-4.X-caf" />
 
   <project path="hardware/qcom-caf/power" name="android_hardware_qcom_power" groups="qcom,pdk-qcom" remote="lluvia" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,pdk-qcom" remote="lluvia" />
   
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" revision="lineage-17.0" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" revision="lineage-17.0" />
