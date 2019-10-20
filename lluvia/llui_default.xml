@@ -79,7 +79,9 @@
   <project path="system/bt" name="android_system_bt" remote="lluvia" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="lluvia" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="lluvia" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="lluvia" />
   <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="lluvia" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-lluvia" name="android_prebuilts_tools-lluvia" remote="lluvia" clone-depth="1" />
