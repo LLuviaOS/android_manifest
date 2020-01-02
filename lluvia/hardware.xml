@@ -53,6 +53,7 @@
 
   <!-- Device -->
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" />
+   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="lluvia" revision="LL-4.X-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="lluvia" revision="LL-4.X-legacy-um" />
 
   <!-- Ril -->
