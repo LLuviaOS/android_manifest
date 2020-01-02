@@ -58,6 +58,9 @@
   <!-- Ril -->
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="lluvia" revision="LL-4.X-caf" />
 
+ <!-- Thermal -->
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="lluvia" />
+
   <!-- Wlan -->
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lluvia" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0-caf" remote="los" />
