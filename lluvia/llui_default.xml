@@ -69,6 +69,7 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="lluvia" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lluvia" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
+  <project path="system/bpf" name="android_system_bpf" remote="los" />
   
   <!-- Externals -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
