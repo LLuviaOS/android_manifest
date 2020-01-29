@@ -34,6 +34,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- System -->
+  <project path="art" name="android_art" groups="pdk" remote="lluvia" />
+  <project path="bionic" name="android_bionic" remote="lluvia" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="lluvia" />
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lluvia" />
+
+  <!-- LLuvia Hardware -->
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lluvia" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="lluvia" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="lluvia" />
@@ -42,28 +49,26 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lluvia" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lluvia" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="lluvia" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lluvia" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lluvia" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="lluvia" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lluvia" />
+  <project path="hardware/lluvia/interfaces" name="android_hardware_lluvia_interfaces" remote="lluvia" />
 
-  <project path="art" name="android_art" groups="pdk" remote="lluvia" />
-  <project path="bionic" name="android_bionic" remote="lluvia" />
-  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="lluvia" />
-  <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="lluvia" />
-  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lluvia" />
+  <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="lluvia" />
   <project path="frameworks/base" name="android_frameworks_base" remote="lluvia" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="lluvia" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="lluvia" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="lluvia" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="lluvia" />
-  <project path="hardware/lluvia/interfaces" name="android_hardware_lluvia_interfaces" remote="lluvia" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lluvia" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lluvia" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="lluvia" />
-  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="lluvia" />
+
+  <!-- Sytem -->  
   <project path="system/bt" name="android_system_bt" remote="lluvia" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="lluvia" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="lluvia" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lluvia" />
-  <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   
   <!-- Externals -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
