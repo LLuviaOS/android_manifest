@@ -69,7 +69,7 @@
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom" remote="lluvia" revision="lineage-17.1-caf" />
 
   <!--Vendor-->
-  <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
+  <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" revision="LL-4.1" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-17.1-pn5xx" remote="los" />
