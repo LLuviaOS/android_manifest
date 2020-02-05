@@ -65,7 +65,7 @@
 
   <!-- Sytem -->  
   <project path="system/bt" name="android_system_bt" remote="lluvia" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="lluvia" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="lluvia_gitlab" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="lluvia" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lluvia" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
