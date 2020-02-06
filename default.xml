@@ -593,6 +593,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
+  <project path="packages/apps/PermissionController" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
@@ -787,13 +788,13 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Remove manifest -->
-  <include name="lluvia/remove.xml" />
+  <!-- Remove unused AOSP repos -->
+  <include name="llui/remove.xml" />
 
-  <!-- lluvia manifest -->
-  <include name="lluvia/llui_default.xml" />
+  <!-- Add some LineageOS repos -->
+  <include name="llui/lineage.xml" />
 
-  <!-- hardware manifest -->
-  <include name="lluvia/hardware.xml" />
+  <!-- Add all lluvia repos -->
+  <include name="llui/llui_default.xml" />
 
 </manifest>
