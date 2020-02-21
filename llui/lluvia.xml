@@ -23,11 +23,11 @@
   <project path="frameworks/av" name="LLuviaOS/android_frameworks_av" remote="lluvia" />
   <project path="frameworks/base" name="LLuviaOS/android_frameworks_base" remote="lluvia" />
   <project path="frameworks/native" name="LLuviaOS/android_frameworks_native" remote="lluvia" />
-  <project path="frameworks/opt/net/wifi" name="LLuviaOS/android_frameworks_opt_net_wifi" remote="lluvia" />
-  <project path="frameworks/opt/telephony" name="LLuviaOS/android_frameworks_opt_telephony" remote="lluvia" />
+  <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" remote="lineage-17.1" />
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="lineage-17.1" />
 
   <project path="hardware/interfaces" name="LLuviaOS/android_hardware_interfaces" remote="lluvia" />
-  <project path="hardware/lineage/interfaces" name="LLuviaOS/android_hardware_lineage_interfaces" remote="lineage-17.1" />
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage-17.1" />
 
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="lineage" />
 
@@ -44,6 +44,8 @@
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" revision="lineage-17.1"/>
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" revision="lineage-17.1"/>
   <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" revision="lineage-17.1"/>
+  <project path="packages/apps/WallpaperPicker2" name="LineageOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs" revision="lineage-17.1"/>
+  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" revision="lineage-17.1"/>
 
   <!-- Clang 9 version 9.0.8 -->
   <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059" clone-depth="1" revision="10.0" />
