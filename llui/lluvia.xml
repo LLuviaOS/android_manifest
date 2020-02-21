@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- crDroid additions -->
+  <project path="android" name="LLuviaOS/android" remote="lluvia" />
+
+  <project path="build/make" name="LLuviaOS/android_build" remote="lluvia" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="LLuviaOS/android_build_soong" remote="lluvia" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="device/lineage/sepolicy" name="LLuviaOS/android_device_lluvia_sepolicy" remote="lluvia" />
+
+  <project path="frameworks/av" name="LLuviaOS/android_frameworks_av" remote="lluvia" />
+  <project path="frameworks/base" name="LLuviaOS/android_frameworks_base" remote="lluvia" />
+  <project path="frameworks/native" name="LLuviaOS/android_frameworks_native" remote="lluvia" />
+  <project path="frameworks/opt/net/wifi" name="LLuviaOS/android_frameworks_opt_net_wifi" remote="lluvia" />
+  <project path="frameworks/opt/telephony" name="LLuviaOS/android_frameworks_opt_telephony" remote="lluvia" />
+  <project path="frameworks/support/lottie" name="LLuviaOS/android_frameworks_support_lottie" remote="lluvia" />
+
+  <project path="hardware/interfaces" name="LLuviaOS/android_hardware_interfaces" remote="lluvia" />
+  <project path="hardware/lineage/interfaces" name="LLuviaOS/android_hardware_lineage_interfaces" remote="lluvia" />
+
+  <project path="lineage-sdk" name="LLuviaOS/android_lineage-sdk" remote="lluvia" />
+
+  <project path="packages/apps/Backgrounds" name="LLuviaOS/android_packages_apps_Backgrounds" remote="lluvia" />
+  <project path="packages/apps/Contacts" name="LLuviaOS/android_packages_apps_Contacts" remote="lluvia" />
+  <project path="packages/apps/Dialer" name="LLuviaOS/android_packages_apps_Dialer" remote="lluvia" />
+  <project path="packages/apps/Launcher3" name="LLuviaOS/android_packages_apps_Launcher3" remote="lluvia" />
+  <project path="packages/apps/LineageParts" name="LLuviaOS/android_packages_apps_LineageParts" remote="lluvia" />
+  <project path="packages/apps/Messaging" name="LLuviaOS/android_packages_apps_Messaging" remote="lluvia" />
+  <project path="packages/apps/OmniStyle" name="LLuviaOS/android_packages_apps_OmniStyle" remote="lluvia" />
+  <project path="packages/apps/Settings" name="LLuviaOS/android_packages_apps_Settings" remote="lluvia" />
+  <project path="packages/apps/SetupWizard" name="LLuviaOS/android_packages_apps_SetupWizard" remote="lluvia" />
+  <project path="packages/apps/ThemePicker" name="LLuviaOS/android_packages_apps_ThemePicker" remote="lluvia" />
+  <project path="packages/apps/Updater" name="LLuviaOS/android_packages_apps_Updater" remote="lluvia" />
+  <project path="packages/apps/WallpaperPicker2" name="LLuviaOS/android_packages_apps_WallpaperPicker2" remote="lluvia" />
+  <project path="packages/apps/crDroidMusic" name="LLuviaOS/android_packages_apps_crDroidMusic" remote="lluvia" />
+  <project path="packages/apps/crDroidSettings" name="LLuviaOS/android_packages_apps_crDroidSettings" remote="lluvia" />
+  <project path="packages/inputmethods/LatinIME" name="LLuviaOS/android_packages_inputmethods_LatinIME" remote="lluvia" />
+  <project path="packages/services/Telecomm" name="LLuviaOS/android_packages_services_Telecomm" remote="lluvia" />
+  <project path="packages/services/Telephony" name="LLuviaOS/android_packages_services_Telephony" remote="lluvia" />
+
+  <!-- Clang 9 version 9.0.8 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="LLuviaOS/android_prebuilts_clang_host_linux-x86_clang-5900059" remote="lluvia" clone-depth="1" />
+  <!-- Clang 10 version 10.0.2 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6170260" name="LLuviaOS/android_prebuilts_clang_host_linux-x86_clang-6170260" remote="lluvia" clone-depth="1" />
+  <!-- Clang 10 version 10.0.3 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6194136" name="LLuviaOS/android_prebuilts_clang_host_linux-x86_clang-6194136" remote="lluvia" clone-depth="1" />
+
+  <project path="system/core" name="LLuviaOS/android_system_core" remote="lluvia" />
+  <project path="system/sepolicy" name="LLuviaOS/android_system_sepolicy" remote="lluvia" />
+
+  <project path="vendor/addons" name="LLuviaOS/android_vendor_addons" remote="lluvia" />
+  <!--<project path="vendor/lluviaOTA" name="LLuviaOS/android_vendor_lluviaOTA" remote="lluvia" />-->
+  <project path="vendor/lineage" name="LLuviaOS/android_vendor_lluvia" remote="lluvia" />
+</manifest>
