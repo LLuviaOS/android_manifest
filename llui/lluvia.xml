@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- crDroid additions -->
+  <!-- LLuvia additions -->
   <project path="android" name="LLuviaOS/android" remote="lluvia" />
-
   <project path="build/make" name="LLuviaOS/android_build" remote="lluvia" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -19,7 +18,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="device/lineage/sepolicy" name="LLuviaOS/android_device_lluvia_sepolicy" remote="lluvia" />
+  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage-17.1" />
 
   <project path="frameworks/av" name="LLuviaOS/android_frameworks_av" remote="lluvia" />
   <project path="frameworks/base" name="LLuviaOS/android_frameworks_base" remote="lluvia" />
@@ -28,24 +27,23 @@
   <project path="frameworks/opt/telephony" name="LLuviaOS/android_frameworks_opt_telephony" remote="lluvia" />
 
   <project path="hardware/interfaces" name="LLuviaOS/android_hardware_interfaces" remote="lluvia" />
-  <project path="hardware/lineage/interfaces" name="LLuviaOS/android_hardware_lineage_interfaces" remote="lluvia" />
+  <project path="hardware/lineage/interfaces" name="LLuviaOS/android_hardware_lineage_interfaces" remote="lineage-17.1" />
 
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="lineage" />
 
-  <project path="packages/apps/Contacts" name="LLuviaOS/android_packages_apps_Contacts" remote="lluvia" />
-  <project path="packages/apps/Dialer" name="LLuviaOS/android_packages_apps_Dialer" remote="lluvia" />
   <project path="packages/apps/Launcher3" name="LLuviaOS/android_packages_apps_Launcher3" remote="lluvia" />
   <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" remote="lineage" />
-  <project path="packages/apps/Messaging" name="LLuviaOS/android_packages_apps_Messaging" remote="lluvia" />
   <project path="packages/apps/Settings" name="LLuviaOS/android_packages_apps_Settings" remote="lluvia" />
-  <project path="packages/apps/SetupWizard" name="LLuviaOS/android_packages_apps_SetupWizard" remote="lluvia" />
   <project path="packages/apps/ThemePicker" name="LLuviaOS/android_packages_apps_ThemePicker" remote="lluvia" />
-  <project path="packages/apps/Updater" name="LLuviaOS/android_packages_apps_Updater" remote="lluvia" />
   <project path="packages/apps/WallpaperPicker2" name="LLuviaOS/android_packages_apps_WallpaperPicker2" remote="lluvia" />
   <project path="packages/apps/Tormenta" name="LLuviaOS/android_packages_apps_Tormenta" remote="lluvia" />
-  <project path="packages/inputmethods/LatinIME" name="LLuviaOS/android_packages_inputmethods_LatinIME" remote="lluvia" />
-  <project path="packages/services/Telecomm" name="LLuviaOS/android_packages_services_Telecomm" remote="lluvia" />
-  <project path="packages/services/Telephony" name="LLuviaOS/android_packages_services_Telephony" remote="lluvia" />
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage-17.1"/>
+  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="lineage-17.1"/>
+  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" revision="lineage-17.1"/>
+  <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" revision="lineage-17.1"/>
+  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" revision="lineage-17.1"/>
+  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" revision="lineage-17.1"/>
+  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" revision="lineage-17.1"/>
 
   <!-- Clang 9 version 9.0.8 -->
   <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059" clone-depth="1" revision="10.0" />
