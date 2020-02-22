@@ -32,10 +32,9 @@
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="lineage" />
 
   <project path="packages/apps/Launcher3" name="LLuviaOS/android_packages_apps_Launcher3" remote="lluvia" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" remote="lineage" />
+  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" revision="lineage-17.1" />
   <project path="packages/apps/Settings" name="LLuviaOS/android_packages_apps_Settings" remote="lluvia" />
   <project path="packages/apps/ThemePicker" name="LLuviaOS/android_packages_apps_ThemePicker" remote="lluvia" />
-  <project path="packages/apps/WallpaperPicker2" name="LLuviaOS/android_packages_apps_WallpaperPicker2" remote="lluvia" />
   <project path="packages/apps/Tormenta" name="LLuviaOS/android_packages_apps_Tormenta" remote="lluvia" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage-17.1"/>
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="lineage-17.1"/>
