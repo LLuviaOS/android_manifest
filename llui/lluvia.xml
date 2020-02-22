@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LLuvia additions -->
-  <project path="android" name="LLuviaOS/android" remote="lluvia" />
+  <project path="android" name="LLuviaOS/android_manifest" remote="lluvia" />
   <project path="build/make" name="LLuviaOS/android_build" remote="lluvia" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
