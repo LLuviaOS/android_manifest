@@ -31,7 +31,6 @@
 
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" revision="lineage-17.1" />
 
-  <project path="packages/apps/Launcher3" name="LLuviaOS/android_packages_apps_Launcher3" remote="lluvia" />
   <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" revision="lineage-17.1" />
   <project path="packages/apps/Settings" name="LLuviaOS/android_packages_apps_Settings" remote="lluvia" />
   <project path="packages/apps/ThemePicker" name="LLuviaOS/android_packages_apps_ThemePicker" remote="lluvia" />
