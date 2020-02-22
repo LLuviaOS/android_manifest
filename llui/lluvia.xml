@@ -18,16 +18,16 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage-17.1" />
+  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" revision="lineage-17.1" />
 
   <project path="frameworks/av" name="LLuviaOS/android_frameworks_av" remote="lluvia" />
   <project path="frameworks/base" name="LLuviaOS/android_frameworks_base" remote="lluvia" />
   <project path="frameworks/native" name="LLuviaOS/android_frameworks_native" remote="lluvia" />
-  <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" remote="lineage-17.1" />
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="lineage-17.1" />
+  <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" revision="lineage-17.1" />
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" revision="lineage-17.1" />
 
   <project path="hardware/interfaces" name="LLuviaOS/android_hardware_interfaces" remote="lluvia" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage-17.1" />
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-17.1" />
 
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="lineage" />
 
@@ -36,8 +36,8 @@
   <project path="packages/apps/Settings" name="LLuviaOS/android_packages_apps_Settings" remote="lluvia" />
   <project path="packages/apps/ThemePicker" name="LLuviaOS/android_packages_apps_ThemePicker" remote="lluvia" />
   <project path="packages/apps/Tormenta" name="LLuviaOS/android_packages_apps_Tormenta" remote="lluvia" />
-  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="lineage-17.1"/>
-  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="lineage-17.1"/>
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" revision="lineage-17.1"/>
+  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" revision="lineage-17.1"/>
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" revision="lineage-17.1"/>
   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" revision="lineage-17.1"/>
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" revision="lineage-17.1"/>
