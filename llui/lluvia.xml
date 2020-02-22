@@ -38,7 +38,6 @@
   <project path="packages/apps/Tormenta" name="LLuviaOS/android_packages_apps_Tormenta" remote="lluvia" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" revision="lineage-17.1"/>
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" revision="lineage-17.1"/>
-  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" revision="lineage-17.1"/>
   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" revision="lineage-17.1"/>
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" revision="lineage-17.1"/>
   <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" revision="lineage-17.1"/>
