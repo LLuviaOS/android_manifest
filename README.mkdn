@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/LLuviaOS/android_manifest -b LL-4.X
+repo init -u https://github.com/LLuviaOS/android_manifest -b LL-4.XL
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -19,8 +19,8 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch lluvia_$device-userdebug
+$ lunch lineage_$device-userdebug
 
 # Build the code
-$ time mka lluvia
+$ make bacon
 ```
