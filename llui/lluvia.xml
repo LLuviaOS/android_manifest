@@ -29,7 +29,7 @@
   <project path="hardware/interfaces" name="LLuviaOS/android_hardware_interfaces" remote="lluvia" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" revision="lineage-17.1" />
 
-  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" revision="lineage-17.1" />
+  <project path="lineage-sdk" name="LLuviaOS/android_lineage-sdk" remote="lluvia" />
 
   <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" revision="lineage-17.1" />
   <project path="packages/apps/Settings" name="LLuviaOS/android_packages_apps_Settings" remote="lluvia" />
