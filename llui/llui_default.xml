@@ -61,7 +61,7 @@
   <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="lluvia" />
   <project path="manifest" name="android_manifest" remote="lluvia" />
   <project path="platform_testing" name="android_platform_testing" remote="lluvia" />
-  <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
+  <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" revision="LL-4.1" />
   <project path="vendor/gapps" name="vendor_gapps" remote="lluvia_gitlab" clone-depth="1" />
   <project path="vendor/google/customization" name="vendor_google_customization" remote="lluvia" />
 
