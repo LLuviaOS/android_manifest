@@ -20,6 +20,8 @@
 
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" revision="lineage-17.1" />
 
+  <project path="external/jemalloc_new" name="LLuviaOS/android_external_jemalloc-new" remote="lluvia" />
+
   <project path="frameworks/av" name="LLuviaOS/android_frameworks_av" remote="lluvia" />
   <project path="frameworks/base" name="LLuviaOS/android_frameworks_base" remote="lluvia" />
   <project path="frameworks/native" name="LLuviaOS/android_frameworks_native" remote="lluvia" />
