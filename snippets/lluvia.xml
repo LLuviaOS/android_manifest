@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="lluvia"
+           fetch="https://github.com/LLuviaOS"
+           revision="refs/heads/LL-4.X" />
+
+  <remote name="lluvia_gitlab"
+          fetch="https://gitlab.com/LLuviaOpenSource"
+          revision="refs/heads/LL-4.X" />
+
+  <remote  name="devices"
+           fetch="https://github.com/LLuviaDevices"
+           revision="refs/heads/LL-4.X" />
+
+  <!-- LLuvia -->
+  <!-- General -->
+  <project path="art" name="android_art" remote="lluvia" />
+  <project path="bionic" name="android_bionic" remote="lluvia" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="lluvia" />
+  <project path="development" name="android_development" remote="lluvia" />
+  <project path="manifest" name="android_manifest" remote="lluvia" />
+
+  <!-- Build -->
+  <project path="build/blueprint" name="android_build_blueprint" remote="lluvia" />
+  <project path="build/make" name="android_build" remote="lluvia" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="lluvia" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/lluvia/sepolicy" name="device_lluvia_sepolicy" remote="lluvia" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="lluvia" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="lluvia" revision="LL-4.X-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="lluvia" revision="LL-4.X-legacy-um" />
+
+  <!-- External -->
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lluvia" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="lluvia" />
+  <project path="external/google" name="android_external_google" remote="lluvia" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lluvia" />
+  <project path="external/one-true-awk" name="android_external_one-true-awk" remote="lluvia" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="lluvia" />
+  <project path="external/proguard" name="android_external_proguard" remote="lluvia" />
+  <project path="external/selinux" name="android_external_selinux" remote="lluvia" />
+  <project path="external/skia" name="android_external_skia" remote="lluvia" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="lluvia" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lluvia" />
+  <project path="external/toybox" name="android_external_toybox" remote="lluvia" />
+  <project path="external/zlib" name="android_external_zlib" remote="lluvia" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="lluvia" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="lluvia" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="lluvia" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="lluvia" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lluvia" />
+
+  <!-- Hardware -->
+  <project path="hardware/lluvia/interfaces" name="android_hardware_lluvia_interfaces" remote="lluvia" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lluvia" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lluvia" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lluvia" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lluvia" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="lluvia" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lluvia" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="lluvia" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="lluvia" />
+  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="lluvia" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="lluvia" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="lluvia" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="lluvia" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="lluvia" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="lluvia" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="lluvia" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="lluvia" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lluvia" />
+  <project path="packages/apps/Tormenta" name="android_packages_apps_Tormenta" remote="lluvia" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="lluvia" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="lluvia" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lluvia" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="lluvia" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="lluvia" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="lluvia" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="lluvia" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="lluvia" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="lluvia" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lluvia" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lluvia" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lluvia" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lluvia" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" />
+
+  <!-- android -->
+  <project path="android_testing" name="android_android_testing" remote="lluvia" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="lluvia" clone-depth="1" />
+
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="lluvia" />
+  <project path="system/core" name="android_system_core" remote="lluvia" />
+  <project path="system/extras" name="android_system_extras" remote="lluvia" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lluvia" />
+  <project path="system/netd" name="android_system_netd" remote="lluvia" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lluvia" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="lluvia" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia" />
+  <project path="system/vold" name="android_system_vold" remote="lluvia" />
+
+  <!-- Tools -->
+  <project path="tools/apifinder" name="android_tools_apifinder" remote="lluvia" />
+
+  <!-- Vendor -->
+  <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lluvia" />
+  <project path="vendor/overlay" name="android_vendor_overlay" remote="lluvia" />
+  <project path="vendor/pixelgapps" name="TeamIllusion/android_vendor_pixelgapps" remote="gitlab" revision="lluvia_gitlab" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lluvia" />
+</manifest>
+

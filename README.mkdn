@@ -1,0 +1,32 @@
+LLUVIA
+===========
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the LLuvia trees, use a command like this:
+
+```bash
+repo init -u git://github.com/LLuviaOS/android_manifest.git -b LL-4.X
+```
+Then to sync up:
+```bash
+repo sync --force-sync --no-tags --no-clone-bundle
+```
+
+Building the source
+---------------
+
+The source at LLuvia is well configured for building. You can choose to build with or without gapps included.
+
+```bash
+source build/envsetup.sh
+lunch aosip_device-userdebug
+time m trueno
+
+If you would like to include gapps in your build, after lunching device enter:
+export WITH_GAPPS=true
+```
