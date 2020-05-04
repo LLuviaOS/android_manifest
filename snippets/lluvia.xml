@@ -76,6 +76,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lluvia" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lluvia" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lluvia" />
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="android_hardware_knowles_athletico_sound_trigger_hal" remote="lluvia" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lluvia" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="lluvia" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="lluvia" />
