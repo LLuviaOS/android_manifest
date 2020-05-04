@@ -109,8 +109,8 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lluvia" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lluvia" />
 
-  <!-- android -->
-  <project path="android_testing" name="android_android_testing" remote="lluvia" />
+  <!-- platform -->
+  <project path="platform_testing" name="android_platform_testing" remote="lluvia" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="lluvia" clone-depth="1" />
