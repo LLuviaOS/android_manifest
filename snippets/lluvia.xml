@@ -133,7 +133,7 @@
   <project path="vendor/lluvia" name="android_vendor_lluvia" remote="lluvia" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lluvia" />
   <project path="vendor/overlay" name="android_vendor_overlay" remote="lluvia" />
-  <project path="vendor/pixelgapps" name="TeamIllusion/android_vendor_pixelgapps" remote="gitlab" revision="lluvia_gitlab" />
+  <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="gitlab" revision="lluvia_gitlab" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lluvia" />
 </manifest>
 
