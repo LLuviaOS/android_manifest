@@ -24,7 +24,7 @@ The source at LLuvia is well configured for building. You can choose to build wi
 
 ```bash
 source build/envsetup.sh
-lunch aosip_device-userdebug
+lunch lluvia_device-userdebug
 time m trueno
 
 If you would like to include gapps in your build, after lunching device enter:
