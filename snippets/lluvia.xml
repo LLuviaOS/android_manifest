@@ -44,10 +44,10 @@
   </project>
 
   <!-- Device -->
-  <project path="device/lluvia/sepolicy" name="device_lluvia_sepolicy" remote="lluvia" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="lluvia" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="lluvia" revision="LL-4.X-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="lluvia" revision="LL-4.X-legacy-um" />
+  <project path="device/lluvia/sepolicy" name="android_device_lluvia_sepolicy" remote="lluvia" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lluvia" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="lluvia" revision="LL-4.X-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="lluvia" revision="LL-4.X-legacy-um" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lluvia" />
