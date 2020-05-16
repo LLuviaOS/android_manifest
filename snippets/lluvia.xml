@@ -117,7 +117,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="lluvia" />
-  <project path="system/core" name="android_system_core" remote="lluvia" />
+  <project path="system/core" name="android_system_core" remote="lluvia_gitlab" />
   <project path="system/extras" name="android_system_extras" remote="lluvia" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lluvia" />
   <project path="system/netd" name="android_system_netd" remote="lluvia" />
